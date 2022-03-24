@@ -4,17 +4,17 @@
     box-sizing:border-box;
 }
 
-body {
-        padding: 10px;
-        margin: 10px;
-        background-color: #ADB5DE;
-        font-family: 'Caladea', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        color: black;
-        width: 1920px;
-        height: 2686px;
+* {
+    border-radius: 0px;
+    padding: 10px;
+    margin: 10px 10px;
+    border-color:aliceblue;
+    background-color: #ADB5DE;
+    font-family: 'Caladea', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
 }
 
 h1 {
@@ -26,134 +26,15 @@ h2 {
     font-weight: bold;
     font-size: 40px;
 }
+ 
+img.fondo {
+    width: 100%;
+    padding:0px;
+}
 
-    img.ap-logo {
-        left: 29px;
-        top: 28px;        
-    }
-
-    h1.ap-logo-name {
-        left: 189px;
-        top: 45px;
-        line-height: 46px;
-    }
-
-    img.instagram {
-        left: 1388px;
-        top: 28px;
-    }
-
-    img.whatsapp {
-        left: 1527px;
-        top: 28px;
-    }
-
-    h1.login {
-        left: 1731px;
-        top: 45px;
-        line-height: 74px;
-    }
-    
-    img.fondo {
-        left: 0px;
-        top: 178px;
-    }
-
-    img.fotocamila {
-        left: 148px;
-        top: 492px;       
-    }
-
-    article.nombre {
-        left: 126px;
-        top: 876px;
-        line-height: 46px;
-        text-align: center;
-    }
-
-    h1.acercade {
-        left: 760px;
-        top: 806px;
-        line-height: 46px;
-    }
-
-    p.informacion {
-        left: 744px;
-        top: 871px;
-        line-height: 37px;
-        text-align: justify;
-    }
-
-    article.experiencia {
-        left: 148px;
-        top: 1143px;
-        line-height: 46px;
-        text-align: justify;
-    }
-
-    article.experiencialaboral {
-        left: 229px;
-        top: 1207px;
-        line-height: 37px;
-        text-align: justify;
-    }
-
-    img.grendelia-logo {
-        left: 1000px;
-        top: 200px;
-    }
-
-    article.educacion {
-        left: 148px;
-        top: 2100px;
-        line-height: 46px;
-        text-align: justify;
-    }
-
-    article.educacion-lista {
-        left: 229px;
-        top: 2164px;
-        line-height: 37px;
-        text-align: justify;
-    }
-
-    img.uba-logo {
-        left: 1000px;
-        top: 0px;
-    }
-
-    img.cnba-logo {
-        left: 1000px;
-        top: 210px;
-    }
-
-    img.aaci-logo {
-        left: 1000px;
-        top: 420px;
-    }
-
-    img.argentinaprograma-logo {
-        left: 1000px;
-        top: 630px;
-    }
-
-    article.hardskills-softskills {
-        left: 148px;
-        top: 3000px;
-        line-height: 46px;
-        text-align: justify;
-    }
-    
-    article.proyectos {
-        left: 148px;
-        top: 3200px;
-        line-height: 46px;
-        text-align: justify;
-    }
-
-    article.portfolio-web {
-        left: 229px;
-        top: 3264px;
-        line-height: 37px;
-        text-align: justify;
-    }
+img.fotocamila {
+    margin-top:-300px;
+    margin-left:100px;
+    padding:0px;
+    border: solid
+}
