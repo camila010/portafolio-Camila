@@ -1,0 +1,244 @@
+@import url('http://fonts.cdnfonts.com/css/caladea');
+
+*, *::before, **::after{
+    box-sizing:border-box;
+}
+
+body {
+        padding: 0px;
+        margin: 0px;
+        background-color: #ADB5DE;
+        font-family: 'Caladea', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        color: black;
+        position: relative;
+        width: 1920px;
+        height: 2686px;
+}
+
+p {
+    font-family: 'Caladea', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: black; 
+}
+
+h1 {
+    font-family: 'Caladea', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
+    img.ap-logo {
+        position: absolute;
+        width: 141.96px;
+        height: 110px;
+        left: 29px;
+        top: 28px;        
+    }
+
+    p.ap-logo-name {
+        position: absolute;
+        width: 655px;
+        height: 46px;
+        left: 189px;
+        top: 45px;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    img.instagram {
+        position: absolute;
+        width: 110px;
+        height: 109.97px;
+        left: 1388px;
+        top: 28px;
+    }
+
+    img.whatsapp {
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        left: 1527px;
+        top: 28px;
+    }
+
+    p.login {
+        position: absolute;
+        width: 212px;
+        height: 81px;
+        left: 1731px;
+        top: 45px;
+        font-size: 40px;
+        line-height: 74px;
+    }
+    
+    img.fondo {
+        position: absolute;
+        width: 1920px;
+        height: 628px;
+        left: 0px;
+        top: 178px;
+    }
+
+    img.fotocamila {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 148px;
+        top: 492px;       
+    }
+
+    p.nombre {
+        position: absolute;
+        width: 443px;
+        height: 138px;
+        left: 126px;
+        top: 876px;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    h1.acercade {
+        position: absolute;
+        left: 760px;
+        top: 806px;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    p.informacion {
+        position: absolute;
+        width: 1090px;
+        height: 148px;
+        left: 744px;
+        top: 871px;
+        line-height: 37px;
+        text-align: justify;
+    }
+
+    h1.experiencia {
+        position: absolute;
+        width: 234px;
+        height: 46px;
+        left: 148px;
+        top: 1143px;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: justify;
+    }
+
+    ul.experiencialaboral {
+        position: absolute;
+        width: 1665px;
+        height: 444px;
+        left: 229px;
+        top: 1207px;
+        line-height: 37px;
+        text-align: justify;
+    }
+
+    img.grendelia-logo {
+        position: absolute;
+        width: 78.4px;
+        height: 80px;
+        left: 109px;
+        top: 1303px;
+    }
+
+    h1.educacion {
+        position: absolute;
+        width: 205px;
+        height: 46px;
+        left: 148px;
+        top: 1753px;
+        line-height: 46px;
+        text-align: justify;
+    }
+
+    ul.educacion-lista {
+        position: absolute;
+        width: 600px;
+        height: 444px;
+        left: 229px;
+        top: 1829px;
+        line-height: 37px;
+        text-align: justify;
+    }
+
+    img.uba-logo {
+        position: absolute;
+        width: 43px;
+        height: 45px;
+        left: 76px;
+        top: 750px;
+    }
+
+    img.cnba-logo {
+        position: absolute;
+        width: 36.01px;
+        height: 40px;
+        left: 79px;
+        top: 800px;
+    }
+
+    img.aaci-logo {
+        position: absolute;
+        width: 43px;
+        height: 42px;
+        left: 76px;
+        top: 850px;
+    }
+
+    img.argentinaprograma-logo {
+        position: absolute;
+        width: 40px;
+        height: 30.99px;
+        left: 77px;
+        top: 900px;
+    }
+
+    h1.hardskills-softskills {
+        position: absolute;
+        width: 579px;
+        height: 46px;
+        left: 148px;
+        top: 2368px;
+        line-height: 46px;
+        text-align: justify;
+    }
+
+    h1.proyectos {
+        position: absolute;
+        width: 196px;
+        height: 46px;
+        left: 148px;
+        top: 2912px;
+        line-height: 46px;
+        text-align: justify;
+    }
+
+    p.portfolio-web {
+        position: absolute;
+        width: 982px;
+        height: 148px;
+        left: 229px;
+        top: 2987px;
+        line-height: 37px;
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+
