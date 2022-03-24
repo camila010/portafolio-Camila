@@ -34,6 +34,14 @@ h1 {
     color: black;
 }
 
+h2 {
+    font-family: 'Caladea', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
     img.ap-logo {
         position: absolute;
         width: 141.96px;
@@ -42,13 +50,10 @@ h1 {
         top: 28px;        
     }
 
-    p.ap-logo-name {
+    h1.ap-logo-name {
         position: absolute;
-        width: 655px;
-        height: 46px;
         left: 189px;
         top: 45px;
-        font-size: 40px;
         line-height: 46px;
     }
 
@@ -68,13 +73,10 @@ h1 {
         top: 28px;
     }
 
-    p.login {
+    h1.login {
         position: absolute;
-        width: 212px;
-        height: 81px;
         left: 1731px;
         top: 45px;
-        font-size: 40px;
         line-height: 74px;
     }
     
@@ -94,13 +96,10 @@ h1 {
         top: 492px;       
     }
 
-    p.nombre {
+    article.nombre {
         position: absolute;
-        width: 443px;
-        height: 138px;
         left: 126px;
         top: 876px;
-        font-size: 40px;
         line-height: 46px;
         text-align: center;
     }
@@ -109,36 +108,27 @@ h1 {
         position: absolute;
         left: 760px;
         top: 806px;
-        font-size: 40px;
         line-height: 46px;
-        text-align: center;
     }
 
     p.informacion {
         position: absolute;
-        width: 1090px;
-        height: 148px;
         left: 744px;
         top: 871px;
         line-height: 37px;
         text-align: justify;
     }
 
-    h1.experiencia {
+    article.experiencia {
         position: absolute;
-        width: 234px;
-        height: 46px;
         left: 148px;
         top: 1143px;
-        font-size: 40px;
         line-height: 46px;
         text-align: justify;
     }
 
-    ul.experiencialaboral {
+    article.experiencialaboral {
         position: absolute;
-        width: 1665px;
-        height: 444px;
         left: 229px;
         top: 1207px;
         line-height: 37px;
@@ -149,96 +139,78 @@ h1 {
         position: absolute;
         width: 78.4px;
         height: 80px;
-        left: 109px;
-        top: 1303px;
+        left: 1000px;
+        top: 200px;
     }
 
-    h1.educacion {
+    article.educacion {
         position: absolute;
-        width: 205px;
-        height: 46px;
         left: 148px;
-        top: 1753px;
+        top: 2100px;
         line-height: 46px;
         text-align: justify;
     }
 
-    ul.educacion-lista {
+    article.educacion-lista {
         position: absolute;
-        width: 600px;
-        height: 444px;
         left: 229px;
-        top: 1829px;
+        top: 2164px;
         line-height: 37px;
         text-align: justify;
     }
 
     img.uba-logo {
         position: absolute;
-        width: 43px;
-        height: 45px;
-        left: 76px;
-        top: 750px;
+        width: 80px;
+        height: 80px;
+        left: 1000px;
+        top: 0px;
     }
 
     img.cnba-logo {
         position: absolute;
-        width: 36.01px;
-        height: 40px;
-        left: 79px;
-        top: 800px;
+        width: 78.4px;
+        height: 80px;
+        left: 1000px;
+        top: 210px;
     }
 
     img.aaci-logo {
         position: absolute;
-        width: 43px;
-        height: 42px;
-        left: 76px;
-        top: 850px;
+        width: 81px;
+        height: 80px;
+        left: 1000px;
+        top: 420px;
     }
 
     img.argentinaprograma-logo {
         position: absolute;
-        width: 40px;
-        height: 30.99px;
-        left: 77px;
-        top: 900px;
+        width: 112px;
+        height: 80px;
+        left: 1000px;
+        top: 630px;
     }
 
-    h1.hardskills-softskills {
+    article.hardskills-softskills {
         position: absolute;
-        width: 579px;
-        height: 46px;
         left: 148px;
-        top: 2368px;
+        top: 3000px;
+        line-height: 46px;
+        text-align: justify;
+    }
+    
+    article.proyectos {
+        position: absolute;
+        left: 148px;
+        top: 3200px;
         line-height: 46px;
         text-align: justify;
     }
 
-    h1.proyectos {
+    article.portfolio-web {
         position: absolute;
-        width: 196px;
-        height: 46px;
-        left: 148px;
-        top: 2912px;
-        line-height: 46px;
-        text-align: justify;
-    }
-
-    p.portfolio-web {
-        position: absolute;
-        width: 982px;
-        height: 148px;
         left: 229px;
-        top: 2987px;
+        top: 3264px;
         line-height: 37px;
         text-align: justify;
     }
-
-
-
-
-
-
-
-
