@@ -4,11 +4,13 @@
     box-sizing:border-box;
 }
 
+html {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 * {
     border-radius: 0px;
-    padding: 10px;
-    margin: 10px 10px;
-    border-color:aliceblue;
     background-color: #ADB5DE;
     font-family: 'Caladea', sans-serif;
     font-style: normal;
@@ -16,6 +18,7 @@
     font-size: 32px;
     color: black;
 }
+
 
 h1 {
     font-weight: bold;
@@ -26,15 +29,37 @@ h2 {
     font-weight: bold;
     font-size: 40px;
 }
+
+header {
+    margin: 15px;		
+    display:block;
+    padding: 20px 20px;
+}
+
+section {
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+
+.ap-logo-name {
+    margin-left:-50px;
+}
+
  
 img.fondo {
     width: 100%;
     padding:0px;
+    margin-top: -40px;
 }
 
 img.fotocamila {
-    margin-top:-300px;
+    margin-top:-350px;
     margin-left:100px;
     padding:0px;
+    border: solid
+}
+
+.login {
     border: solid
 }
