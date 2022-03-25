@@ -11,55 +11,84 @@ html {
 
 * {
     border-radius: 0px;
-    background-color: #ADB5DE;
-    font-family: 'Caladea', sans-serif;
+    background-color: #9aa5da;
+    font-family:'Caladea', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 300;
+    font-size: 20px;
     color: black;
 }
 
 
 h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 26px;
 }
 
 h2 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 22px;
 }
 
 header {
-    margin: 15px;		
+    margin: 5px;		
     display:block;
-    padding: 20px 20px;
+    padding: 5px 5px;
 }
 
 section {
     padding: 10px;
-    margin: 10px 10px;
+    margin: 15px 15px;
+    outline: 2px solid black;
+    outline-offset: 2px;
 }
 
 
 .ap-logo-name {
-    margin-left:-50px;
-}
-
- 
-img.fondo {
-    width: 100%;
-    padding:0px;
-    margin-top: -40px;
-}
-
-img.fotocamila {
-    margin-top:-350px;
-    margin-left:100px;
-    padding:0px;
-    border: solid
+    margin-left:-38px;
 }
 
 .login {
     border: solid
+}
+ 
+img.fondo {
+    width: 100%;
+    padding:0px;
+    margin-top: 0px;
+}
+
+img.fotocamila {
+    margin-top:-180px;
+    margin-left:60px;
+    padding:0px;
+    border: solid
+}
+
+p.datos {
+    text-align:center;
+    line-height:10px;
+}
+
+div.datos-juntos {
+    margin-top:18px;
+}
+
+
+.informacion {
+    margin-top:0px;
+    text-align: justify;
+}
+
+.experiencialaboral {
+    width:60%;
+    text-align:justify;
+}
+
+p.estudios {
+    line-height: 10px;
+}
+
+p.portfolio {
+    line-height: 10px;
 }
