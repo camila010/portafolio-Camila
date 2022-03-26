@@ -79,9 +79,19 @@ div.datos-juntos {
     text-align: justify;
 }
 
+
 .experiencialaboral {
-    width:60%;
     text-align:justify;
+}
+
+.pencil {
+    width:20px;
+    height:20px;
+}
+
+.cross {
+    width:20px;
+    height:20px;
 }
 
 p.estudios {
