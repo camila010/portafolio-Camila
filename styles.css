@@ -74,7 +74,6 @@ div.datos-juntos {
     margin-top:18px;
 }
 
-
 .informacion {
     margin-top:0px;
     text-align: justify;
@@ -89,6 +88,34 @@ p.estudios {
     line-height: 10px;
 }
 
+p.skills {
+    line-height: 10px;
+    padding: 3px
+}
+
 p.portfolio {
     line-height: 10px;
+}
+
+p.proyectos-escritos {
+    line-height: 10px;
+}
+
+
+#graficos {
+    display: inline-block;   
+    margin: 5px;
+    padding-bottom:10px; 
+}
+    
+#graficos .horizontal {
+    display: block;
+    margin: 5px; 
+    width: 700px; height: 30px; 
+    background-color: rgb(255, 255, 255);  
+    border-right: solid 50px transparent; /* para compensar background-position */ 
+    background-image: linear-gradient(rgb(173, 104, 219), rgb(61, 10, 95)); 
+    background-repeat: no-repeat;
+    background-position: 50px 0;
+    background-size: 0 100%;
 }

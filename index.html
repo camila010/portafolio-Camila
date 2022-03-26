@@ -7,7 +7,8 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
-    <link href="styles.css" rel = "stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="app/app.js"></script>
     <title>Camila Rocío López</title>
 </head>
 
@@ -16,19 +17,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-1">
-                <img src ="ap.png" class="ap-logo" width="51,6" height= "40px">
+                <img src="images/ap.png" class="ap-logo" width="51,6" height= "40px">
             </div>
             <div class="col">
                 <p class="ap-logo-name"> Argentina Programa - #YoProgramo</p>
             </div>
             <div class="col-1">
-                    <a href = "https://www.instagram.com/camigadepan/" class="instagram">
-                        <img src = "ig.png" class="instagram" width="40px" height="40px">
+                    <a href="https://www.instagram.com/camigadepan/" class="instagram">
+                        <img src="images/ig.png" class="instagram" width="40px" height="40px">
                     </a>
                 </div>
             <div class="col-1">
-                <a href = "https://wa.me/541169387584" class = "whatsapp">
-                    <img src = "epp.png" class = "whatsapp" width="40px" height="40px">
+                <a href="https://wa.me/541169387584" class="whatsapp">
+                    <img src="images/epp.png" class="whatsapp" width="40px" height="40px">
                 </a>
             </div>
             <div class="col-1">
@@ -39,8 +40,8 @@
 </header>
 
 
-    <img src = "japanese-artwork.jpg" class = "fondo" width="1440px" height="471px">
-    <img src = "fotocamila.jpg" class = "fotocamila" width="250px" height="250px">
+    <img src="images/japanese-artwork.jpg" class="fondo" width="1440px" height="471px">
+    <img src="images/fotocamila.jpg" class="fotocamila" width="250px" height="250px">
 
 <section>
     <div class="container-fluid">
@@ -108,8 +109,8 @@
                             <p class="estudios">2020 - Actualidad</p>
                         </div>
                         <div class="col">
-                            <a href = "https://www.uba.ar">
-                                <img src = "uba.png" class="uba-logo" width="60px" height="60px">
+                            <a href="https://www.uba.ar">
+                                <img src="images/uba.png" class="uba-logo" width="60px" height="60px">
                                 </a>
                         </div>
                     </div>
@@ -124,8 +125,8 @@
                             <p class="estudios">2014 - 2018</p>
                         </div>
                         <div class="col">
-                            <a href = "https://www.cnba.uba.ar">
-                                <img src = "cnba.png" class ="cnba-logo" width="58,5px" height="60px">
+                            <a href="https://www.cnba.uba.ar">
+                                <img src="images/cnba.png" class="cnba-logo" width="58,5px" height="60px">
                             </a>
                         </div>
                     </div>
@@ -140,8 +141,8 @@
                             <p class="estudios">2010 - 2015 | 2019</p>
                         </div>
                         <div class="col">
-                            <a href = "https://www.aaci.org.ar">
-                                <img src = "aaci.png" class="aaci-logo" width="60px" height="60px">
+                            <a href="https://www.aaci.org.ar">
+                                <img src="images/aaci.png" class="aaci-logo" width="60px" height="60px">
                             </a>
                         </div>
                     </div>
@@ -156,8 +157,8 @@
                             <p class="estudios">2022</p>
                         </div>
                         <div class="col">
-                            <a href = "https://argentinaprograma.inti.gob.ar/">
-                                <img src = "ap.png" class = "argentinaprograma-logo" width="84px" height="60px">
+                            <a href="https://argentinaprograma.inti.gob.ar/">
+                                <img src="images/ap.png" class="argentinaprograma-logo" width="84px" height="60px">
                             </a>
                         </div>
                     </div>
@@ -171,20 +172,51 @@
     <article class="hardskills-softskills">
         <h1>HARD SKILLS & SOFT SKILLS</h1>
     </article>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-7">
+                <div id="graficos">
+                    <figure class="horizontal">90%</figure>
+                    <figure class="horizontal">60%</figure>
+                    <figure class="horizontal">80%</figure>
+                    <figure class="horizontal">80%</figure>
+                    <figure class="horizontal">90%</figure>
+                    <figure class="horizontal">80%</figure>
+                </div>
+            </div>
+            <div class="col">
+                <div id="nombres-skills">
+                    <p class="skills">Inglés</p>
+                    <p class="skills">Francés</p>
+                    <p class="skills">Escritura</p>
+                    <p class="skills">Creatividad</p>
+                    <p class="skills">Compromiso</p>
+                    <p class="skills">Empatía</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 <section>
     <article class="proyectos">
         <h1>PROYECTOS</h1>
     </article>
-
     <article class="portfolio-web">
-        <h2>Portfolio Web</h2>
-        <p class="portfolio">Desarrollo de una aplicación web de arquitectura distribuída.</p>
-        <p class="portfolio">Front End utilizando HTML, CSS, JavaScript y Angular.</p>
-        <p class="portfolio">Back End utilizando Java EE y Spring Boot. Creación de base de datos.</p>
+        <ul>
+            <li>
+                <h2>Portfolio Web</h2>
+                <p class="portfolio">Desarrollo de una aplicación web de arquitectura distribuída.</p>
+                <p class="portfolio">Front End utilizando HTML, CSS, JavaScript y Angular.</p>
+                <p class="portfolio">Back End utilizando Java EE y Spring Boot. Creación de base de datos.</p>
+            </li>
+            <li>
+                <h2>Proyectos escritos</h2>
+                <p class="proyectos-escritos">Proyecto personal de escritura de ensayos.</p>
+            </li>
+        </ul>
     </article>
-
 </section>
 
 </body>
