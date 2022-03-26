@@ -19,7 +19,6 @@ html {
     color: black;
 }
 
-
 h1 {
     font-weight: bold;
     font-size: 26px;
@@ -43,13 +42,13 @@ section {
     outline-offset: 2px;
 }
 
-
 .ap-logo-name {
     margin-left:-38px;
 }
 
 .login {
-    border: solid
+    border: solid;
+    border-radius: 10%;
 }
  
 img.fondo {
@@ -79,7 +78,6 @@ div.datos-juntos {
     text-align: justify;
 }
 
-
 .experiencialaboral {
     text-align:justify;
 }
@@ -92,6 +90,24 @@ div.datos-juntos {
 .cross {
     width:20px;
     height:20px;
+}
+
+.plus {
+    width:20px;
+    height:20px;
+}
+
+.button-pencil {
+    border: none;
+}
+
+.button-cross {
+    border: none;
+}
+
+.button-plus {
+    border: solid;
+    border-radius: 30%;
 }
 
 p.estudios {
@@ -118,7 +134,7 @@ p.proyectos-escritos {
     padding-bottom:10px; 
 }
     
-#graficos .horizontal {
+.horizontal {
     display: block;
     margin: 5px; 
     width: 700px; height: 30px; 

@@ -1,5 +1,5 @@
 function porcentajes() {
-    var horizontales = document.querySelectorAll("#graficos .horizontal"); 
+    var horizontales = document.querySelectorAll(".horizontal"); 
     
     var elem = 0; 
     while(elem < horizontales.length) {
